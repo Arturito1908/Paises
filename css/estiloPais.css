@@ -1,0 +1,111 @@
+
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 10px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+}
+
+p{
+  margin-left: 400px;
+  font-size: 200%;
+}
+
+h1{
+  text-align:center;
+  font-size: 300%;
+
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#peru{
+  color:FireBrick;
+}
+
+#argentina{
+  color:rgb(20, 203, 209);
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+
+.banderaPeru{
+  background-image: url("../img/peru.jpg");
+}
+
+.banderaarge{
+  background-image: url("../img/argentina.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #339;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #00ff00;
+    transform: scaleX(1.3);
+    font-style:  italic ;
+    color: black;
+
+}
